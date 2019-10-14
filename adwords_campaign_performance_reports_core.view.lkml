@@ -5,7 +5,7 @@ view: adwords_campaign_performance_reports {
 }
 
 view: adwords_campaign_performance_reports_core {
-  sql_table_name: adwords.campaign_performance_reports ;;
+  sql_table_name: @{GOOGLE_ADWORDS_SCHEMA_NAME}.campaign_performance_reports ;;
 
   dimension: id {
     primary_key: yes

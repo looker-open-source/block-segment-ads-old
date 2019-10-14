@@ -5,7 +5,7 @@ view: facebook_campaigns {
 }
 
 view: facebook_campaigns_core {
-  sql_table_name: facebook_ads.campaigns ;;
+  sql_table_name: @{FACEBOOK_ADS_SCHEMA_NAME}.campaigns ;;
 
   dimension: id {
     primary_key: yes

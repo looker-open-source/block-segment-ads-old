@@ -5,7 +5,7 @@ view: adwords_campaigns {
 }
 
 view: adwords_campaigns_core {
-  sql_table_name: adwords.campaigns ;;
+  sql_table_name: @{GOOGLE_ADWORDS_SCHEMA_NAME}.campaigns ;;
 
   dimension: id {
     primary_key: yes

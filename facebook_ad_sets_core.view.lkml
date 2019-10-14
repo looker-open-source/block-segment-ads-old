@@ -5,7 +5,7 @@ view: facebook_ad_sets {
 }
 
 view: facebook_ad_sets_core {
-  sql_table_name: facebook_ads.ad_sets ;;
+  sql_table_name: @{FACEBOOK_ADS_SCHEMA_NAME}.ad_sets ;;
 
   dimension: id {
     primary_key: yes

@@ -16,7 +16,7 @@ constant: FACEBOOK_ADS_SCHEMA_NAME {
 }
 
 constant: GOOGLE_ADWORDS_SCHEMA_NAME {
-  value: "facebook_ads"
+  value: "adwords"
 }
 
 ################ Dependencies ################

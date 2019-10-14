@@ -5,7 +5,7 @@ view: adwords_ad_performance_reports {
 }
 
 view: adwords_ad_performance_reports_core {
-  sql_table_name: adwords.ad_performance_reports ;;
+  sql_table_name: @{GOOGLE_ADWORDS_SCHEMA_NAME}.ad_performance_reports ;;
 
 ##### This table is ad performance, segmented by day #####
 
