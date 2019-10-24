@@ -1,6 +1,6 @@
 {
   "label": "Segment Ads",
-  "category_label": "Tools",
+  "category_label": "Models",
   "branding": {
     "image_uri": "https://braze-marketing-assets.s3.amazonaws.com/images/partner_logos/segment.png",
     "tagline": "Go beyond Google AdWords and Facebook Ads dashboards and ask any question you want about your advertising data. Load your ads data into a data warehouse with Segment and use the Facebook Ads and Google AdWords Block by Segment to analyze the performance of one or both of your ads sources."
