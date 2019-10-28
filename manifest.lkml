@@ -8,7 +8,7 @@ constant: CONFIG_PROJECT_NAME {
 }
 
 constant: CONNECTION_NAME {
-  value: "pb_n_jays_postgres"
+  value: "choose connection"
   export: override_required
 }
 
