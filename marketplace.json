@@ -7,13 +7,19 @@
   },
 
 "constants": {
-"CONNECTION_NAME": {
-  "label": "Connection Name",
-  "value_constraint": "connection"
-},
-"CONFIG_PROJECT_NAME": {
-  "label": "Config Project Name"
-}
+  "CONNECTION_NAME": {
+    "label": "Connection Name",
+    "value_constraint": "connection"
+  },
+  "CONFIG_PROJECT_NAME": {
+    "label": "Config Project Name"
+  },
+  "FACEBOOK_ADS_SCHEMA_NAME": {
+    "label": "Facebook Ads Schema Name"
+  },
+  "GOOGLE_ADWORDS_SCHEMA_NAME": {
+    "label": "Google Adwords Schema Name"
+  }
 },
 "models": [
   {
