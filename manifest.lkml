@@ -28,10 +28,10 @@ local_dependency: {
   project: "@{CONFIG_PROJECT_NAME}"
 
   override_constant: FACEBOOK_ADS_SCHEMA_NAME {
-    value: "@FACEBOOK_ADS_SCHEMA_NAME"
+    value: "@{FACEBOOK_ADS_SCHEMA_NAME}"
   }
 
   override_constant: GOOGLE_ADWORDS_SCHEMA_NAME {
-    value: "@GOOGLE_ADWORDS_SCHEMA_NAME"
+    value: "@{GOOGLE_ADWORDS_SCHEMA_NAME}"
   }
 }
