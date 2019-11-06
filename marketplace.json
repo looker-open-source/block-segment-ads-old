@@ -30,7 +30,7 @@
 "auxiliary_projects": [
     {
       "git_uri": "git://github.com/llooker/block-segment-ads-config.git",
-      "git_ref": "a9c7fce56a936bb41e788fa73509e1f9c7246279",
+      "git_ref": "5e128e042f012d952dbc43b9fbe43d9f79becc2a",
       "label": "Segment Ads Config",
       "constant_name": "CONFIG_PROJECT_NAME"
     }

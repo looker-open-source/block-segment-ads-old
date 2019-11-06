@@ -5,6 +5,7 @@ include: "*.explore.lkml"
 include: "*.dashboard.lookml"
 include: "//@{CONFIG_PROJECT_NAME}/*.view.lkml"
 include: "//@{CONFIG_PROJECT_NAME}/*.model.lkml"
+include: "//@{CONFIG_PROJECT_NAME}/*.dashboard"
 
 ## Google Adwords ##
 explore: adwords_ad_performance_reports {
