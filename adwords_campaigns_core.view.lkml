@@ -36,6 +36,7 @@ view: adwords_campaigns_core {
   dimension: name {
     type: string
     sql: ${TABLE}.name ;;
+    }
   }
 
   dimension_group: received {
