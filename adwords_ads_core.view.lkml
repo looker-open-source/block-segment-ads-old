@@ -11,16 +11,6 @@ view: adwords_ads_core {
     primary_key: yes
     type: string
     sql: ${TABLE}.id ;;
-    link: {
-      label: "Ad Performance Dashboard"
-      icon_url: "https://looker.com/favicon.ico"
-      url: "https://boomerang.looker.com/dashboards/8"
-    }
-    link: {
-      label: "Campaign Lookup Dashboard"
-      icon_url: "https://looker.com/favicon.ico"
-      url: "https://boomerang.looker.com/dashboards/6?Campaign%20Name={{ adwords_campaigns.name._value }}"
-    }
   }
 
   dimension: ad_group_id {

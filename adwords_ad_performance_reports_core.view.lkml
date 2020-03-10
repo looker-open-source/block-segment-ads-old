@@ -15,33 +15,12 @@ view: adwords_ad_performance_reports_core {
     primary_key: yes
     type: string
     sql: ${TABLE}.id ;;
-    link: {
-      label: "Ad Performance Dashboard"
-      icon_url: "https://looker.com/favicon.ico"
-      url: "https://boomerang.looker.com/dashboards/8"
-    }
-    link: {
-      label: "Campaign Lookup Dashboard"
-      icon_url: "https://looker.com/favicon.ico"
-      url: "https://boomerang.looker.com/dashboards/6?Campaign%20Name={{ adwords_campaigns.name._value }}"
-    }
   }
 
   dimension: ad_id {
     type: string
     # hidden: yes
     sql: ${TABLE}.ad_id ;;
-    link: {
-      label: "Ad Performance Dashboard"
-      icon_url: "https://looker.com/favicon.ico"
-      url: "https://boomerang.looker.com/dashboards/8"
-    }
-    link: {
-      label: "Campaign Lookup Dashboard"
-      icon_url: "https://looker.com/favicon.ico"
-      url: "https://boomerang.looker.com/dashboards/6?Campaign%20Name={{ adwords_campaigns.name._value }}"
-    }
-
   }
 
   dimension: adwords_customer_id {
